@@ -10,7 +10,7 @@ def condition(ls):
 def towerBreakers(n, m):
     # Write your code here
     if m == 1:
-        return 1
+        return 2
     else:
         if n % 2 == 1:
             return 1
