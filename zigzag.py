@@ -8,7 +8,7 @@ def findZigZagSequence(a, n):
     mid = int(n/2)
     a[mid], a[n-1] = a[n-1], a[mid]
 
-    # here it is already zigzaf
+    # here it is already zigzag
     # but in case it isn't, we look at midpoint(+1 becaus 0 indexed)
     # and the last position to check(not the last element because largest is fixed properly, plus 0 indexing)
     st = mid + 1
